@@ -16,6 +16,7 @@
 		4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A321C29ECC32300E21A03 /* CustomImageView.swift */; };
 		4EBB726629ECCF8F00926788 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726529ECCF8F00926788 /* CustomView.swift */; };
 		4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726729ECD01400926788 /* CustomBlurView.swift */; };
+		4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +31,7 @@
 		4E9A321C29ECC32300E21A03 /* CustomImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomImageView.swift; sourceTree = "<group>"; };
 		4EBB726529ECCF8F00926788 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		4EBB726729ECD01400926788 /* CustomBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
+		4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +69,7 @@
 				4E9A320529EC9BC800E21A03 /* SceneDelegate.swift */,
 				4E9A320729EC9BC800E21A03 /* ViewController.swift */,
 				4E9A320929EC9BC800E21A03 /* Main.storyboard */,
+				4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */,
 				4E9A320C29EC9BCA00E21A03 /* Assets.xcassets */,
 				4E9A320E29EC9BCA00E21A03 /* LaunchScreen.storyboard */,
 				4E9A321129EC9BCA00E21A03 /* Info.plist */,
@@ -161,6 +164,7 @@
 				4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */,
 				4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */,
 				4E9A320629EC9BC800E21A03 /* SceneDelegate.swift in Sources */,
+				4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
