@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A320329EC9BC800E21A03 /* AppDelegate.swift */; };
 		4E9A320629EC9BC800E21A03 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A320529EC9BC800E21A03 /* SceneDelegate.swift */; };
-		4E9A320829EC9BC800E21A03 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A320729EC9BC800E21A03 /* ViewController.swift */; };
+		4E9A320829EC9BC800E21A03 /* FeaturedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E9A320729EC9BC800E21A03 /* FeaturedViewController.swift */; };
 		4E9A320B29EC9BC800E21A03 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A320929EC9BC800E21A03 /* Main.storyboard */; };
 		4E9A320D29EC9BCA00E21A03 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A320C29EC9BCA00E21A03 /* Assets.xcassets */; };
 		4E9A321029EC9BCA00E21A03 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E9A320E29EC9BCA00E21A03 /* LaunchScreen.storyboard */; };
@@ -17,13 +17,14 @@
 		4EBB726629ECCF8F00926788 /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726529ECCF8F00926788 /* CustomView.swift */; };
 		4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726729ECD01400926788 /* CustomBlurView.swift */; };
 		4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */; };
+		4EBB72DB29F0554000926788 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72DA29F0554000926788 /* Course.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4E9A320029EC9BC800E21A03 /* Design+Code.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Design+Code.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4E9A320329EC9BC800E21A03 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4E9A320529EC9BC800E21A03 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4E9A320729EC9BC800E21A03 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4E9A320729EC9BC800E21A03 /* FeaturedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeaturedViewController.swift; sourceTree = "<group>"; };
 		4E9A320A29EC9BC800E21A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4E9A320C29EC9BCA00E21A03 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4E9A320F29EC9BCA00E21A03 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +33,7 @@
 		4EBB726529ECCF8F00926788 /* CustomView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		4EBB726729ECD01400926788 /* CustomBlurView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBlurView.swift; sourceTree = "<group>"; };
 		4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
+		4EBB72DA29F0554000926788 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,12 +66,13 @@
 		4E9A320229EC9BC800E21A03 /* Design+Code */ = {
 			isa = PBXGroup;
 			children = (
-				4E9A321729ECBCE900E21A03 /* Helper */,
 				4E9A320329EC9BC800E21A03 /* AppDelegate.swift */,
 				4E9A320529EC9BC800E21A03 /* SceneDelegate.swift */,
-				4E9A320729EC9BC800E21A03 /* ViewController.swift */,
+				4E9A321729ECBCE900E21A03 /* Helper */,
+				4EBB72DC29F05C7700926788 /* View Controllers */,
+				4EBB72DD29F05C9B00926788 /* Cells */,
+				4EBB72DE29F05CA500926788 /* Classes */,
 				4E9A320929EC9BC800E21A03 /* Main.storyboard */,
-				4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */,
 				4E9A320C29EC9BCA00E21A03 /* Assets.xcassets */,
 				4E9A320E29EC9BCA00E21A03 /* LaunchScreen.storyboard */,
 				4E9A321129EC9BCA00E21A03 /* Info.plist */,
@@ -85,6 +88,30 @@
 				4EBB726729ECD01400926788 /* CustomBlurView.swift */,
 			);
 			path = Helper;
+			sourceTree = "<group>";
+		};
+		4EBB72DC29F05C7700926788 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4E9A320729EC9BC800E21A03 /* FeaturedViewController.swift */,
+			);
+			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		4EBB72DD29F05C9B00926788 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		4EBB72DE29F05CA500926788 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB72DA29F0554000926788 /* Course.swift */,
+			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,9 +185,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBB72DB29F0554000926788 /* Course.swift in Sources */,
 				4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */,
 				4EBB726629ECCF8F00926788 /* CustomView.swift in Sources */,
-				4E9A320829EC9BC800E21A03 /* ViewController.swift in Sources */,
+				4E9A320829EC9BC800E21A03 /* FeaturedViewController.swift in Sources */,
 				4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */,
 				4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */,
 				4E9A320629EC9BC800E21A03 /* SceneDelegate.swift in Sources */,
