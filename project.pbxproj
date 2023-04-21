@@ -19,6 +19,8 @@
 		4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */; };
 		4EBB72DB29F0554000926788 /* Course.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72DA29F0554000926788 /* Course.swift */; };
 		4EBB72E029F08C2F00926788 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72DF29F08C2F00926788 /* CoursesTableViewCell.swift */; };
+		4EBB72E229F2DD6A00926788 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */; };
+		4EBB72E429F2E07B00926788 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72E329F2E07B00926788 /* Section.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandbookCollectionViewCell.swift; sourceTree = "<group>"; };
 		4EBB72DA29F0554000926788 /* Course.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Course.swift; sourceTree = "<group>"; };
 		4EBB72DF29F08C2F00926788 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
+		4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
+		4EBB72E329F2E07B00926788 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +100,7 @@
 			isa = PBXGroup;
 			children = (
 				4E9A320729EC9BC800E21A03 /* FeaturedViewController.swift */,
+				4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -113,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				4EBB72DA29F0554000926788 /* Course.swift */,
+				4EBB72E329F2E07B00926788 /* Section.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -192,11 +198,13 @@
 				4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */,
 				4EBB726629ECCF8F00926788 /* CustomView.swift in Sources */,
 				4EBB72E029F08C2F00926788 /* CoursesTableViewCell.swift in Sources */,
+				4EBB72E429F2E07B00926788 /* Section.swift in Sources */,
 				4E9A320829EC9BC800E21A03 /* FeaturedViewController.swift in Sources */,
 				4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */,
 				4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */,
 				4E9A320629EC9BC800E21A03 /* SceneDelegate.swift in Sources */,
 				4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */,
+				4EBB72E229F2DD6A00926788 /* CoursesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
