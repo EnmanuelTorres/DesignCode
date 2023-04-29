@@ -21,6 +21,7 @@
 		4EBB72E029F08C2F00926788 /* CoursesTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72DF29F08C2F00926788 /* CoursesTableViewCell.swift */; };
 		4EBB72E229F2DD6A00926788 /* CoursesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */; };
 		4EBB72E429F2E07B00926788 /* Section.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72E329F2E07B00926788 /* Section.swift */; };
+		4EBB72EA29F84CC600926788 /* SectionTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB72E929F84CC600926788 /* SectionTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,6 +41,7 @@
 		4EBB72DF29F08C2F00926788 /* CoursesTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesTableViewCell.swift; sourceTree = "<group>"; };
 		4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesViewController.swift; sourceTree = "<group>"; };
 		4EBB72E329F2E07B00926788 /* Section.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Section.swift; sourceTree = "<group>"; };
+		4EBB72E929F84CC600926788 /* SectionTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 			children = (
 				4EBB726929EE168C00926788 /* HandbookCollectionViewCell.swift */,
 				4EBB72DF29F08C2F00926788 /* CoursesTableViewCell.swift */,
+				4EBB72E929F84CC600926788 /* SectionTableViewCell.swift */,
 			);
 			path = Cells;
 			sourceTree = "<group>";
@@ -203,6 +206,7 @@
 				4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */,
 				4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */,
 				4E9A320629EC9BC800E21A03 /* SceneDelegate.swift in Sources */,
+				4EBB72EA29F84CC600926788 /* SectionTableViewCell.swift in Sources */,
 				4EBB726A29EE168C00926788 /* HandbookCollectionViewCell.swift in Sources */,
 				4EBB72E229F2DD6A00926788 /* CoursesViewController.swift in Sources */,
 			);
@@ -359,6 +363,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -387,6 +392,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.1;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
