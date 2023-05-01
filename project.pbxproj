@@ -35,6 +35,7 @@
 		4EBB73212A00182F00926788 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB73202A00182F00926788 /* FirebaseMessaging */; };
 		4EBB73232A00182F00926788 /* FirebasePerformance in Frameworks */ = {isa = PBXBuildFile; productRef = 4EBB73222A00182F00926788 /* FirebasePerformance */; };
 		4EBB73252A00184C00926788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB73242A00184C00926788 /* GoogleService-Info.plist */; };
+		4EBB73272A002E0300926788 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73262A002E0300926788 /* LoginViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -61,6 +62,7 @@
 		4EBB72F129FECAB800926788 /* TopicsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopicsTableViewCell.swift; sourceTree = "<group>"; };
 		4EBB72F329FECCEB00926788 /* Topic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Topic.swift; sourceTree = "<group>"; };
 		4EBB73242A00184C00926788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4EBB73262A002E0300926788 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +134,7 @@
 				4E9A320729EC9BC800E21A03 /* FeaturedViewController.swift */,
 				4EBB72E129F2DD6A00926788 /* CoursesViewController.swift */,
 				4EBB72EF29FD9CC700926788 /* ExploreViewController.swift */,
+				4EBB73262A002E0300926788 /* LoginViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4EBB73272A002E0300926788 /* LoginViewController.swift in Sources */,
 				4EBB72DB29F0554000926788 /* Course.swift in Sources */,
 				4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */,
 				4EBB72F029FD9CC700926788 /* ExploreViewController.swift in Sources */,
