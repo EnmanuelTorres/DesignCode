@@ -37,6 +37,9 @@
 		4EBB73252A00184C00926788 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4EBB73242A00184C00926788 /* GoogleService-Info.plist */; };
 		4EBB73272A002E0300926788 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73262A002E0300926788 /* LoginViewController.swift */; };
 		4EBB73292A01A37600926788 /* LibraryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73282A01A37600926788 /* LibraryViewController.swift */; };
+		4EBB73332A02CFD200926788 /* CertificateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73302A02CFD200926788 /* CertificateView.swift */; };
+		4EBB73342A02CFD200926788 /* CertificateItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73312A02CFD200926788 /* CertificateItem.swift */; };
+		4EBB73352A02CFD200926788 /* FlipView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4EBB73322A02CFD200926788 /* FlipView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -65,6 +68,9 @@
 		4EBB73242A00184C00926788 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		4EBB73262A002E0300926788 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		4EBB73282A01A37600926788 /* LibraryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LibraryViewController.swift; sourceTree = "<group>"; };
+		4EBB73302A02CFD200926788 /* CertificateView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CertificateView.swift; path = "../../../../../Downloads/UIKit Part 2 Source File/Completed Project/UIKit for iOS 15/Views/CertificateView.swift"; sourceTree = "<group>"; };
+		4EBB73312A02CFD200926788 /* CertificateItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CertificateItem.swift; path = "../../../../../Downloads/UIKit Part 2 Source File/Completed Project/UIKit for iOS 15/Views/CertificateItem.swift"; sourceTree = "<group>"; };
+		4EBB73322A02CFD200926788 /* FlipView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FlipView.swift; path = "../../../../../Downloads/UIKit Part 2 Source File/Completed Project/UIKit for iOS 15/Views/FlipView.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +112,7 @@
 			children = (
 				4E9A320329EC9BC800E21A03 /* AppDelegate.swift */,
 				4E9A320529EC9BC800E21A03 /* SceneDelegate.swift */,
+				4EBB732A2A02CC7500926788 /* Views */,
 				4E9A321729ECBCE900E21A03 /* Helper */,
 				4EBB72DC29F05C7700926788 /* View Controllers */,
 				4EBB72DD29F05C9B00926788 /* Cells */,
@@ -162,6 +169,16 @@
 				4EBB72F329FECCEB00926788 /* Topic.swift */,
 			);
 			path = Classes;
+			sourceTree = "<group>";
+		};
+		4EBB732A2A02CC7500926788 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				4EBB73312A02CFD200926788 /* CertificateItem.swift */,
+				4EBB73302A02CFD200926788 /* CertificateView.swift */,
+				4EBB73322A02CFD200926788 /* FlipView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,6 +267,7 @@
 			files = (
 				4EBB73272A002E0300926788 /* LoginViewController.swift in Sources */,
 				4EBB72DB29F0554000926788 /* Course.swift in Sources */,
+				4EBB73342A02CFD200926788 /* CertificateItem.swift in Sources */,
 				4EBB73292A01A37600926788 /* LibraryViewController.swift in Sources */,
 				4EBB726829ECD01400926788 /* CustomBlurView.swift in Sources */,
 				4EBB72F029FD9CC700926788 /* ExploreViewController.swift in Sources */,
@@ -258,6 +276,7 @@
 				4EBB72E429F2E07B00926788 /* Section.swift in Sources */,
 				4E9A320829EC9BC800E21A03 /* FeaturedViewController.swift in Sources */,
 				4E9A321D29ECC32300E21A03 /* CustomImageView.swift in Sources */,
+				4EBB73352A02CFD200926788 /* FlipView.swift in Sources */,
 				4E9A320429EC9BC800E21A03 /* AppDelegate.swift in Sources */,
 				4EBB72F229FECAB800926788 /* TopicsTableViewCell.swift in Sources */,
 				4EBB72EE29FD9A8E00926788 /* SectionsCollectionViewCell.swift in Sources */,
@@ -267,6 +286,7 @@
 				4EBB72E229F2DD6A00926788 /* CoursesViewController.swift in Sources */,
 				4EBB72EC29FD864200926788 /* CustomTabBarViewController.swift in Sources */,
 				4EBB72F429FECCEB00926788 /* Topic.swift in Sources */,
+				4EBB73332A02CFD200926788 /* CertificateView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
